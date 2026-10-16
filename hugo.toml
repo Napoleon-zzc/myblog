@@ -1,0 +1,41 @@
+baseURL = "https://example.com/"
+#languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+
+[params]
+  author = "ZZC"
+  description = "个人博客"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = "你好"
+    Content = "欢迎来到我的博客"
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+# 把原来的 languageCode = "zh-cn" 注释掉或者删掉，换成：
+defaultContentLanguage = "zh-cn"
+
+[languages]
+  [languages.zh-cn]
+    languageName = "中文"
+    weight = 1
+    [languages.zh-cn.params]
+      languageDirection = "ltr"
