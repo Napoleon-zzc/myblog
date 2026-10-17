@@ -1,12 +1,8 @@
 +++
 date = '2026-10-17T17:46:34+08:00'
-draft = true
+draft = false
 title = 'HTML笔记'
 +++
-
-
-
-[TOC]
 
 ## HTML
 
