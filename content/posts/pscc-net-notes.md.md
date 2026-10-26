@@ -1,7 +1,8 @@
 +++
-title = 'PSCC-Net 复现笔记（2026-10-20）'
+title = 'PSCC-Net 复现笔记'
 date = '2026-10-20T16:00:00+08:00'
 draft = false
+categories = ["论文"]  
 +++
 
 # 

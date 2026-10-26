@@ -23,13 +23,17 @@ theme = "PaperMod"
     url = "/"
     weight = 10
   [[menu.main]]
-    name = "文章"
+    name = "全部文章"
     url = "/posts/"
     weight = 20
   [[menu.main]]
-    name = "标签"
-    url = "/tags/"
+    name = "笔记"    
+    url = "/categories/笔记/" 
     weight = 30
+  [[menu.main]]
+    name = "科研"
+    url = "/categories/论文/"
+    weight = 40
 
 [languages]
   [languages.zh-cn]
