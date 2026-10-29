@@ -35,6 +35,12 @@ theme = "PaperMod"
     url = "/categories/论文/"
     weight = 40
 
+# 允许正文中的原始 HTML 原样输出（<p align="center"><img ...></p> 这类居中图片需要）
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [languages]
   [languages.zh-cn]
     label = "中文"
